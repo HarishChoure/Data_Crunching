@@ -1,0 +1,12 @@
+Documentation : Data Crunching
+
+Algorithm
+
+1) First import csv module
+2) Make a function which are use for  to make a tsv file into dictionary, first value in the dictionary as a key and rest of data as a values
+3) I store all file in the separate dictionary
+4) Make a loop which are used to checks if the user_id exists in the "ip" dictionary, and if it does, it retrieves the corresponding ip address,
+ otherwise it sets the ip address to an empty string. The code then repeats the same process for the email to see if the plaintext password
+ exists for the email in the "plain_email" dictionary, and if it does, it retrieves the corresponding plaintext password, otherwise 
+  it sets the plaintext password to an empty string
+5) At the end it write data into the output file according to the given formate.
